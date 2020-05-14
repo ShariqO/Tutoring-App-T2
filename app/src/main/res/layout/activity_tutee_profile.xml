@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center">
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="197dp"
+    android:layout_height="221dp"
+    app:srcCompat="@drawable/prof1" />
+
+<TextView
+    android:id="@+id/name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Rick McDonald"
+    android:textSize="30dp"/>
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Rating: 4.5/5"
+    />
+
+<TextView
+    android:id="@+id/location"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Location: Waterloo, ON"
+    />
+
+
+<LinearLayout
+    android:gravity="left"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="35dp"
+    >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Academic Experience:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/program"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Year 2 Computer Science" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meeting Preference: "
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/meeting"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In-Person" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Courses"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/courses"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculus, Linear Algebra, Data Structures 1 and 2, etc"
+
+        />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current University/School:"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Wilfrid Laurier University"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Learning Style:"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visual and auditory"
+        />
+
+</LinearLayout>
+
+<Button
+    android:id="@+id/dashboard_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Dashboard"
+    />
+
+</LinearLayout>

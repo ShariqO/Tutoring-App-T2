@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">T^2</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="login_with_your_tutor_credentials">Login with your Tutor credentials</string>
+    <string name="forgot">Forgot your password?</string>
+    <string name="get">Get started by creating a new"\n"account below&#8230;</string>
+    <string name="email">Email*</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="continue_button">Continue&#8230;</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="last_name">Last Name*</string>
+    <string name="first_name">First Name*</string>
+    <string name="indicates_a_required_field">* Indicates a required field</string>
+    <string name="tsquaredlogo">tSquared_logo</string>
+    <string name="loginScreen">Connecting Tutors and Tutees</string>
+    <string name="tuteeLogin">Tutee Login</string>
+    <string name="tutorLogin">Tutor Login</string>
+    <string name="register">Register Now!</string>
+    <string name="username">Username</string>
+    <string name="passwordStar">Password*</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="createAccount">Dont have an account?</string>
+    <string name="no_account">Dont have an account?</string>
+    <string name="tutor_search">Search for tutors</string>
+    <string name="forgot_password">RESET YOUR PASSWORD</string>
+    <string name="user_information">User Information</string>
+    <string name="change_password">Change password</string>
+    <string name="first_name_no_star">First Name</string>
+    <string name="last_name_no_star">Last Name</string>
+
+</resources>
